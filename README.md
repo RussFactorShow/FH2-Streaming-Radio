@@ -6,6 +6,9 @@ A mod for **Forza Horizon 2 (Azimuth builds)** that takes over an in-game radio 
 
 Spotify streaming requires Spotify Premium, since Spotify only allows Connect speakers on Premium. Local music works without Premium and offline. Not affiliated with Spotify or Microsoft.
 
+> [!IMPORTANT]
+> Go into the game's **Audio settings** and turn **OFF Radio DJ**, or the DJ will talk over your music.
+
 ## Install
 
 1. Download the latest zip from [Releases](../../releases).
