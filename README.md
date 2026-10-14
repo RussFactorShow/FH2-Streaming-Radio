@@ -12,7 +12,8 @@ Requires Spotify Premium, since Spotify only allows Connect speakers on Premium.
 2. Copy `D3DCompiler_47.dll` and the `spotify-radio` folder into the folder that already has `Azimuth.exe`.
 3. Launch the game. When Windows asks, allow `Azimuth.exe` to use **Private networks**. In fullscreen, that prompt can hide behind the game, so Alt+Tab to it.
 4. On a phone or other device on the same network, open Spotify, tap the devices icon, and pick **Forza Horizon 2**. Then play something.
-5. In-game, switch the radio to **Innovative Leisure**.
+5. **IMPORTANT:** Go into the in-game **Audio settings** and turn **OFF Radio DJ**.
+6. In-game, switch the radio to **Innovative Leisure**.
 
 After the first time, your login is saved and the game shows up in Spotify automatically whenever it's running.
 
