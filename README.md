@@ -1,5 +1,7 @@
 # FH2 Streaming Radio
 
+![FH2 Streaming Radio](assets/banner.png)
+
 A mod for **Forza Horizon 2 (Azimuth builds)** that turns the in-game **Innovative Leisure** radio station into a Spotify Connect speaker. Pick "Forza Horizon 2" from the Spotify devices list on your phone, and whatever you play comes out of that station in-game.
 
 Requires Spotify Premium, since Spotify only allows Connect speakers on Premium. Not affiliated with Spotify or Microsoft.
