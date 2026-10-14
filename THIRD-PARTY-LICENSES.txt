@@ -1,0 +1,319 @@
+FH2 Spotify Radio includes these open-source Rust libraries, compiled into D3DCompiler_47.dll.
+Spotify support is librespot (https://github.com/librespot-org/librespot), MIT License, reproduced at the end.
+MPL-2.0 libraries (symphonia audio decoders and others) are used unmodified; their source is at the repository listed.
+
+adler2                                   2.0.1        0BSD OR MIT OR Apache-2.0                     https://github.com/oyvindln/adler2
+aes                                      0.8.4        MIT OR Apache-2.0                             https://github.com/RustCrypto/block-ciphers
+aho-corasick                             1.1.5        Unlicense OR MIT                              https://github.com/BurntSushi/aho-corasick
+allocator-api2                           0.2.21       MIT OR Apache-2.0                             https://github.com/zakarumych/allocator-api2
+anstream                                 1.0.0        MIT OR Apache-2.0                             https://github.com/rust-cli/anstyle.git
+anstyle                                  1.0.14       MIT OR Apache-2.0                             https://github.com/rust-cli/anstyle.git
+anstyle-parse                            1.0.0        MIT OR Apache-2.0                             https://github.com/rust-cli/anstyle.git
+anstyle-query                            1.1.5        MIT OR Apache-2.0                             https://github.com/rust-cli/anstyle.git
+anstyle-wincon                           3.0.11       MIT OR Apache-2.0                             https://github.com/rust-cli/anstyle.git
+anyhow                                   1.0.104      MIT OR Apache-2.0                             https://github.com/dtolnay/anyhow
+arrayvec                                 0.7.8        MIT OR Apache-2.0                             https://github.com/bluss/arrayvec
+async-trait                              0.1.92       MIT OR Apache-2.0                             https://github.com/dtolnay/async-trait
+atomic-waker                             1.1.2        Apache-2.0 OR MIT                             https://github.com/smol-rs/atomic-waker
+autocfg                                  1.5.1        Apache-2.0 OR MIT                             https://github.com/cuviper/autocfg
+base64                                   0.22.1       MIT OR Apache-2.0                             https://github.com/marshallpierce/rust-base64
+base64                                   0.23.1       MIT OR Apache-2.0                             https://github.com/marshallpierce/rust-base64
+base64ct                                 1.8.3        Apache-2.0 OR MIT                             https://github.com/RustCrypto/formats
+bitflags                                 1.3.2        MIT/Apache-2.0                                https://github.com/bitflags/bitflags
+bitflags                                 2.13.2       MIT OR Apache-2.0                             https://github.com/bitflags/bitflags
+block-buffer                             0.10.4       MIT OR Apache-2.0                             https://github.com/RustCrypto/utils
+bytemuck                                 1.25.2       Zlib OR Apache-2.0 OR MIT                     https://github.com/Lokathor/bytemuck
+byteorder                                1.5.0        Unlicense OR MIT                              https://github.com/BurntSushi/byteorder
+bytes                                    1.12.1       MIT                                           https://github.com/tokio-rs/bytes
+cfg-if                                   1.0.5        MIT OR Apache-2.0                             https://github.com/rust-lang/cfg-if
+chrono                                   0.4.45       MIT OR Apache-2.0                             https://github.com/chronotope/chrono
+cipher                                   0.4.4        MIT OR Apache-2.0                             https://github.com/RustCrypto/traits
+colorchoice                              1.0.5        MIT OR Apache-2.0                             https://github.com/rust-cli/anstyle.git
+const-oid                                0.9.6        Apache-2.0 OR MIT                             https://github.com/RustCrypto/formats/tree/master/const-oid
+core_detect                              1.0.0        MIT/Apache-2.0                                https://github.com/thomcc/core_detect
+cpufeatures                              0.2.17       MIT OR Apache-2.0                             https://github.com/RustCrypto/utils
+crc32fast                                1.5.2        MIT OR Apache-2.0                             https://github.com/srijs/rust-crc32fast
+crypto-common                            0.1.7        MIT OR Apache-2.0                             https://github.com/RustCrypto/traits
+ctr                                      0.9.2        MIT OR Apache-2.0                             https://github.com/RustCrypto/block-modes
+darling                                  0.20.11      MIT                                           https://github.com/TedDriggs/darling
+darling_core                             0.20.11      MIT                                           https://github.com/TedDriggs/darling
+darling_macro                            0.20.11      MIT                                           https://github.com/TedDriggs/darling
+data-encoding                            2.11.1       MIT                                           https://github.com/ia0/data-encoding
+defmt                                    1.1.1        MIT OR Apache-2.0                             https://github.com/knurling-rs/defmt
+defmt-macros                             1.1.1        MIT OR Apache-2.0                             https://github.com/knurling-rs/defmt
+defmt-parser                             1.0.0        MIT OR Apache-2.0                             https://github.com/knurling-rs/defmt
+der                                      0.7.10       Apache-2.0 OR MIT                             https://github.com/RustCrypto/formats/tree/master/der
+deranged                                 0.5.9        MIT OR Apache-2.0                             https://github.com/jhpratt/deranged
+derive_builder                           0.20.2       MIT OR Apache-2.0                             https://github.com/colin-kiegel/rust-derive-builder
+derive_builder_core                      0.20.2       MIT OR Apache-2.0                             https://github.com/colin-kiegel/rust-derive-builder
+derive_builder_macro                     0.20.2       MIT OR Apache-2.0                             https://github.com/colin-kiegel/rust-derive-builder
+digest                                   0.10.7       MIT OR Apache-2.0                             https://github.com/RustCrypto/traits
+displaydoc                               0.2.7        MIT OR Apache-2.0                             https://github.com/yaahc/displaydoc
+either                                   1.19.0       MIT OR Apache-2.0                             https://github.com/rayon-rs/either
+encoding_rs                              0.8.42       (Apache-2.0 OR MIT) AND BSD-3-Clause          https://github.com/hsivonen/encoding_rs
+env_filter                               2.0.0        MIT OR Apache-2.0                             https://github.com/rust-cli/env_logger
+env_logger                               0.11.11      MIT OR Apache-2.0                             https://github.com/rust-cli/env_logger
+equivalent                               1.0.3        Apache-2.0 OR MIT                             https://github.com/indexmap-rs/equivalent
+errno                                    0.3.14       MIT OR Apache-2.0                             https://github.com/lambda-fairy/rust-errno
+fastrand                                 2.5.0        Apache-2.0 OR MIT                             https://github.com/smol-rs/fastrand
+flate2                                   1.1.10       MIT OR Apache-2.0                             https://github.com/rust-lang/flate2-rs
+fnv                                      1.0.7        Apache-2.0 / MIT                              https://github.com/servo/rust-fnv
+foldhash                                 0.2.0        Zlib                                          https://github.com/orlp/foldhash
+form_urlencoded                          1.2.2        MIT OR Apache-2.0                             https://github.com/servo/rust-url
+futures-channel                          0.3.34       MIT OR Apache-2.0                             https://github.com/rust-lang/futures-rs
+futures-core                             0.3.34       MIT OR Apache-2.0                             https://github.com/rust-lang/futures-rs
+futures-io                               0.3.34       MIT OR Apache-2.0                             https://github.com/rust-lang/futures-rs
+futures-macro                            0.3.34       MIT OR Apache-2.0                             https://github.com/rust-lang/futures-rs
+futures-sink                             0.3.34       MIT OR Apache-2.0                             https://github.com/rust-lang/futures-rs
+futures-task                             0.3.34       MIT OR Apache-2.0                             https://github.com/rust-lang/futures-rs
+futures-timer                            3.0.4        MIT/Apache-2.0                                https://github.com/async-rs/futures-timer
+futures-util                             0.3.34       MIT OR Apache-2.0                             https://github.com/rust-lang/futures-rs
+generic-array                            0.14.7       MIT                                           https://github.com/fizyk20/generic-array.git
+getopts                                  0.2.24       MIT OR Apache-2.0                             https://github.com/rust-lang/getopts
+getrandom                                0.2.17       MIT OR Apache-2.0                             https://github.com/rust-random/getrandom
+getrandom                                0.3.4        MIT OR Apache-2.0                             https://github.com/rust-random/getrandom
+getrandom                                0.4.3        MIT OR Apache-2.0                             https://github.com/rust-random/getrandom
+governor                                 0.10.4       MIT                                           https://github.com/boinkor-net/governor.git
+h2                                       0.4.20       MIT                                           https://github.com/hyperium/h2
+hashbrown                                0.16.1       MIT OR Apache-2.0                             https://github.com/rust-lang/hashbrown
+hashbrown                                0.17.1       MIT OR Apache-2.0                             https://github.com/rust-lang/hashbrown
+headers                                  0.4.2        MIT                                           https://github.com/hyperium/headers
+headers-core                             0.3.0        MIT                                           https://github.com/hyperium/headers
+hmac                                     0.12.1       MIT OR Apache-2.0                             https://github.com/RustCrypto/MACs
+home                                     0.5.12       MIT OR Apache-2.0                             https://github.com/rust-lang/cargo
+hostname                                 0.4.2        MIT                                           https://github.com/djc/hostname
+http                                     1.5.0        MIT OR Apache-2.0                             https://github.com/hyperium/http
+http-body                                1.1.0        MIT                                           https://github.com/hyperium/http-body
+http-body-util                           0.1.5        MIT                                           https://github.com/hyperium/http-body
+httparse                                 1.10.1       MIT OR Apache-2.0                             https://github.com/seanmonstar/httparse
+httpdate                                 1.0.3        MIT OR Apache-2.0                             https://github.com/pyfisch/httpdate
+hyper                                    1.12.0       MIT                                           https://github.com/hyperium/hyper
+hyper-proxy2                             0.1.0        MIT                                           https://github.com/siketyan/hyper-proxy2
+hyper-tls                                0.6.0        MIT/Apache-2.0                                https://github.com/hyperium/hyper-tls
+hyper-util                               0.1.21       MIT                                           https://github.com/hyperium/hyper-util
+icu_collections                          2.3.0        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+icu_locale_core                          2.3.0        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+icu_normalizer                           2.3.0        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+icu_normalizer_data                      2.3.0        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+icu_properties                           2.3.0        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+icu_properties_data                      2.3.0        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+icu_provider                             2.3.1        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+ident_case                               1.0.1        MIT/Apache-2.0                                https://github.com/TedDriggs/ident_case
+idna                                     1.1.0        MIT OR Apache-2.0                             https://github.com/servo/rust-url/
+idna_adapter                             1.2.2        Apache-2.0 OR MIT                             https://github.com/hsivonen/idna_adapter
+if-addrs                                 0.14.0       MIT OR BSD-3-Clause                           https://github.com/messense/if-addrs
+indexmap                                 2.14.2       Apache-2.0 OR MIT                             https://github.com/indexmap-rs/indexmap
+inout                                    0.1.4        MIT OR Apache-2.0                             https://github.com/RustCrypto/utils
+ipnet                                    2.12.2       MIT OR Apache-2.0                             https://github.com/krisprice/ipnet
+is_terminal_polyfill                     1.70.2       MIT OR Apache-2.0                             https://github.com/polyfill-rs/is_terminal_polyfill
+itoa                                     1.0.18       MIT OR Apache-2.0                             https://github.com/dtolnay/itoa
+jiff                                     0.2.38       Unlicense OR MIT                              https://github.com/BurntSushi/jiff
+jiff-core                                0.1.1        Unlicense OR MIT                              https://github.com/BurntSushi/jiff
+lazy_static                              1.5.1        MIT OR Apache-2.0                             https://github.com/rust-lang-nursery/lazy-static.rs
+libc                                     0.2.190      MIT OR Apache-2.0                             https://github.com/rust-lang/libc
+libm                                     0.2.16       MIT                                           https://github.com/rust-lang/compiler-builtins
+libmdns                                  0.10.1       MIT                                           https://github.com/librespot-org/libmdns
+librespot                                0.8.0        MIT                                           https://github.com/librespot-org/librespot
+librespot-audio                          0.8.0        MIT                                           https://github.com/librespot-org/librespot
+librespot-connect                        0.8.0        MIT                                           https://github.com/librespot-org/librespot
+librespot-core                           0.8.0        MIT                                           https://github.com/librespot-org/librespot
+librespot-discovery                      0.8.0        MIT                                           https://github.com/librespot-org/librespot
+librespot-metadata                       0.8.0        MIT                                           https://github.com/librespot-org/librespot
+librespot-oauth                          0.8.0        MIT                                           https://github.com/librespot-org/librespot
+librespot-playback                       0.8.0        MIT                                           https://github.com/librespot-org/librespot
+librespot-protocol                       0.8.0        MIT                                           https://github.com/librespot-org/librespot
+litemap                                  0.8.3        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+lock_api                                 0.4.14       MIT OR Apache-2.0                             https://github.com/Amanieu/parking_lot
+log                                      0.4.34       MIT OR Apache-2.0                             https://github.com/rust-lang/log
+memchr                                   2.8.3        Unlicense OR MIT                              https://github.com/BurntSushi/memchr
+mime                                     0.3.17       MIT OR Apache-2.0                             https://github.com/hyperium/mime
+miniz_oxide                              0.9.1        MIT OR Zlib OR Apache-2.0                     https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
+mio                                      1.2.4        MIT                                           https://github.com/tokio-rs/mio
+multimap                                 0.10.1       MIT OR Apache-2.0                             https://github.com/havarnov/multimap
+multiversion_no_op                       1.0.0        Apache-2.0 OR MIT                             https://github.com/hsivonen/multiversion_no_op
+native-tls                               0.2.18       MIT OR Apache-2.0                             https://github.com/rust-native-tls/rust-native-tls
+nonzero_ext                              0.3.0        Apache-2.0                                    https://github.com/antifuchs/nonzero_ext
+ntapi                                    0.4.3        Apache-2.0 OR MIT                             https://github.com/MSxDOS/ntapi
+num-bigint                               0.4.8        MIT OR Apache-2.0                             https://github.com/rust-num/num-bigint
+num-bigint-dig                           0.8.6        MIT/Apache-2.0                                https://github.com/dignifiedquire/num-bigint
+num-conv                                 0.2.2        MIT OR Apache-2.0                             https://github.com/jhpratt/num-conv
+num-derive                               0.4.2        MIT OR Apache-2.0                             https://github.com/rust-num/num-derive
+num-integer                              0.1.47       MIT OR Apache-2.0                             https://github.com/rust-num/num-integer
+num-iter                                 0.1.46       MIT OR Apache-2.0                             https://github.com/rust-num/num-iter
+num-traits                               0.2.19       MIT OR Apache-2.0                             https://github.com/rust-num/num-traits
+oauth2                                   5.0.0        MIT OR Apache-2.0                             https://github.com/ramosbugs/oauth2-rs
+once_cell                                1.21.4       MIT OR Apache-2.0                             https://github.com/matklad/once_cell
+once_cell_polyfill                       1.70.2       MIT OR Apache-2.0                             https://github.com/polyfill-rs/once_cell_polyfill
+open                                     5.4.4        MIT                                           https://github.com/Byron/open-rs
+parking_lot                              0.12.5       MIT OR Apache-2.0                             https://github.com/Amanieu/parking_lot
+parking_lot_core                         0.9.12       MIT OR Apache-2.0                             https://github.com/Amanieu/parking_lot
+pbkdf2                                   0.12.2       MIT OR Apache-2.0                             https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2
+pem-rfc7468                              0.7.0        Apache-2.0 OR MIT                             https://github.com/RustCrypto/formats/tree/master/pem-rfc7468
+percent-encoding                         2.3.2        MIT OR Apache-2.0                             https://github.com/servo/rust-url/
+pin-project-lite                         0.2.17       Apache-2.0 OR MIT                             https://github.com/taiki-e/pin-project-lite
+pkcs1                                    0.7.5        Apache-2.0 OR MIT                             https://github.com/RustCrypto/formats/tree/master/pkcs1
+pkcs8                                    0.10.2       Apache-2.0 OR MIT                             https://github.com/RustCrypto/formats/tree/master/pkcs8
+portable-atomic                          1.15.0       Apache-2.0 OR MIT                             https://github.com/taiki-e/portable-atomic
+potential_utf                            0.1.6        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+powerfmt                                 0.2.1        MIT OR Apache-2.0                             https://github.com/jhpratt/powerfmt
+ppv-lite86                               0.2.21       MIT OR Apache-2.0                             https://github.com/cryptocorrosion/cryptocorrosion
+priority-queue                           2.7.0        LGPL-3.0-or-later OR MPL-2.0                  https://github.com/garro95/priority-queue
+proc-macro2                              1.0.107      MIT OR Apache-2.0                             https://github.com/dtolnay/proc-macro2
+protobuf                                 3.7.2        MIT                                           https://github.com/stepancheg/rust-protobuf/
+protobuf-codegen                         3.7.2        MIT                                           https://github.com/stepancheg/rust-protobuf/
+protobuf-json-mapping                    3.7.2        MIT                                           https://github.com/stepancheg/rust-protobuf/
+protobuf-parse                           3.7.2        MIT                                           https://github.com/stepancheg/rust-protobuf/tree/master/protobuf-parse/
+protobuf-support                         3.7.2        MIT                                           https://github.com/stepancheg/rust-protobuf/
+quick-xml                                0.38.4       MIT                                           https://github.com/tafia/quick-xml
+quote                                    1.0.47       MIT OR Apache-2.0                             https://github.com/dtolnay/quote
+rand                                     0.8.8        MIT OR Apache-2.0                             https://github.com/rust-random/rand
+rand                                     0.9.5        MIT OR Apache-2.0                             https://github.com/rust-random/rand
+rand_chacha                              0.3.1        MIT OR Apache-2.0                             https://github.com/rust-random/rand
+rand_chacha                              0.9.0        MIT OR Apache-2.0                             https://github.com/rust-random/rand
+rand_core                                0.6.4        MIT OR Apache-2.0                             https://github.com/rust-random/rand
+rand_core                                0.9.5        MIT OR Apache-2.0                             https://github.com/rust-random/rand
+rand_distr                               0.5.1        MIT OR Apache-2.0                             https://github.com/rust-random/rand_distr
+regex                                    1.13.1       MIT OR Apache-2.0                             https://github.com/rust-lang/regex
+regex-automata                           0.4.18       MIT OR Apache-2.0                             https://github.com/rust-lang/regex
+regex-syntax                             0.8.11       MIT OR Apache-2.0                             https://github.com/rust-lang/regex
+reqwest                                  0.12.28      MIT OR Apache-2.0                             https://github.com/seanmonstar/reqwest
+rsa                                      0.9.10       MIT OR Apache-2.0                             https://github.com/RustCrypto/RSA
+rustix                                   0.38.44      Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT https://github.com/bytecodealliance/rustix
+rustls-pki-types                         1.15.1       MIT OR Apache-2.0                             https://github.com/rustls/pki-types
+rustversion                              1.0.23       MIT OR Apache-2.0                             https://github.com/dtolnay/rustversion
+ryu                                      1.0.23       Apache-2.0 OR BSL-1.0                         https://github.com/dtolnay/ryu
+schannel                                 0.1.29       MIT                                           https://github.com/steffengy/schannel-rs
+scopeguard                               1.2.0        MIT OR Apache-2.0                             https://github.com/bluss/scopeguard
+serde                                    1.0.229      MIT OR Apache-2.0                             https://github.com/serde-rs/serde
+serde_core                               1.0.229      MIT OR Apache-2.0                             https://github.com/serde-rs/serde
+serde_derive                             1.0.229      MIT OR Apache-2.0                             https://github.com/serde-rs/serde
+serde_json                               1.0.154      MIT OR Apache-2.0                             https://github.com/serde-rs/json
+serde_path_to_error                      0.1.20       MIT OR Apache-2.0                             https://github.com/dtolnay/path-to-error
+serde_repr                               0.1.21       MIT OR Apache-2.0                             https://github.com/dtolnay/serde-repr
+serde_urlencoded                         0.7.1        MIT/Apache-2.0                                https://github.com/nox/serde_urlencoded
+sha1                                     0.10.7       MIT OR Apache-2.0                             https://github.com/RustCrypto/hashes
+sha2                                     0.10.9       MIT OR Apache-2.0                             https://github.com/RustCrypto/hashes
+shannon                                  0.2.0        MIT                                           
+shell-words                              1.1.1        MIT/Apache-2.0                                https://github.com/tmiasko/shell-words
+signature                                2.2.0        Apache-2.0 OR MIT                             https://github.com/RustCrypto/traits/tree/master/signature
+simd-adler32                             0.3.10       MIT                                           https://github.com/mcountryman/simd-adler32
+simdutf8                                 0.1.5        MIT OR Apache-2.0                             https://github.com/rusticstuff/simdutf8
+slab                                     0.4.12       MIT                                           https://github.com/tokio-rs/slab
+smallvec                                 1.16.3       MIT OR Apache-2.0                             https://github.com/servo/rust-smallvec
+socket2                                  0.6.5        MIT OR Apache-2.0                             https://github.com/rust-lang/socket2
+spin                                     0.9.9        MIT                                           https://github.com/mvdnes/spin-rs.git
+spinning_top                             0.3.0        MIT/Apache-2.0                                https://github.com/rust-osdev/spinning_top
+spki                                     0.7.3        Apache-2.0 OR MIT                             https://github.com/RustCrypto/formats/tree/master/spki
+stable_deref_trait                       1.2.1        MIT OR Apache-2.0                             https://github.com/storyyeller/stable_deref_trait
+strsim                                   0.11.1       MIT                                           https://github.com/rapidfuzz/strsim-rs
+subtle                                   2.6.1        BSD-3-Clause                                  https://github.com/dalek-cryptography/subtle
+symphonia                                0.5.5        MPL-2.0                                       https://github.com/pdeljanov/Symphonia
+symphonia-bundle-flac                    0.5.5        MPL-2.0                                       https://github.com/pdeljanov/Symphonia
+symphonia-bundle-mp3                     0.5.5        MPL-2.0                                       https://github.com/pdeljanov/Symphonia
+symphonia-codec-vorbis                   0.5.5        MPL-2.0                                       https://github.com/pdeljanov/Symphonia
+symphonia-core                           0.5.5        MPL-2.0                                       https://github.com/pdeljanov/Symphonia
+symphonia-format-ogg                     0.5.5        MPL-2.0                                       https://github.com/pdeljanov/Symphonia
+symphonia-metadata                       0.5.5        MPL-2.0                                       https://github.com/pdeljanov/Symphonia
+symphonia-utils-xiph                     0.5.5        MPL-2.0                                       https://github.com/pdeljanov/Symphonia
+syn                                      2.0.119      MIT OR Apache-2.0                             https://github.com/dtolnay/syn
+syn                                      3.0.9        MIT OR Apache-2.0                             https://github.com/dtolnay/syn
+sync_wrapper                             1.0.2        Apache-2.0                                    https://github.com/Actyx/sync_wrapper
+synstructure                             0.14.0       MIT                                           https://github.com/mystor/synstructure
+sysinfo                                  0.36.1       MIT                                           https://github.com/GuillaumeGomez/sysinfo
+tempfile                                 3.27.0       MIT OR Apache-2.0                             https://github.com/Stebalien/tempfile
+thiserror                                1.0.69       MIT OR Apache-2.0                             https://github.com/dtolnay/thiserror
+thiserror                                2.0.21       MIT OR Apache-2.0                             https://github.com/dtolnay/thiserror
+thiserror-impl                           1.0.69       MIT OR Apache-2.0                             https://github.com/dtolnay/thiserror
+thiserror-impl                           2.0.21       MIT OR Apache-2.0                             https://github.com/dtolnay/thiserror
+time                                     0.3.55       MIT OR Apache-2.0                             https://github.com/time-rs/time
+time-core                                0.1.9        MIT OR Apache-2.0                             https://github.com/time-rs/time
+time-macros                              0.2.32       MIT OR Apache-2.0                             https://github.com/time-rs/time
+tinystr                                  0.8.4        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+tokio                                    1.53.3       MIT                                           https://github.com/tokio-rs/tokio
+tokio-macros                             2.7.2        MIT                                           https://github.com/tokio-rs/tokio
+tokio-native-tls                         0.3.1        MIT                                           https://github.com/tokio-rs/tls
+tokio-stream                             0.1.19       MIT                                           https://github.com/tokio-rs/tokio
+tokio-tungstenite                        0.28.0       MIT                                           https://github.com/snapview/tokio-tungstenite
+tokio-util                               0.7.20       MIT                                           https://github.com/tokio-rs/tokio
+tower                                    0.5.3        MIT                                           https://github.com/tower-rs/tower
+tower-http                               0.6.11       MIT                                           https://github.com/tower-rs/tower-http
+tower-layer                              0.3.3        MIT                                           https://github.com/tower-rs/tower
+tower-service                            0.3.3        MIT                                           https://github.com/tower-rs/tower
+tracing                                  0.1.44       MIT                                           https://github.com/tokio-rs/tracing
+tracing-core                             0.1.36       MIT                                           https://github.com/tokio-rs/tracing
+try-lock                                 0.2.5        MIT                                           https://github.com/seanmonstar/try-lock
+tungstenite                              0.28.0       MIT OR Apache-2.0                             https://github.com/snapview/tungstenite-rs
+typenum                                  1.20.1       MIT OR Apache-2.0                             https://github.com/paholg/typenum
+unicode-ident                            1.0.27       (MIT OR Apache-2.0) AND Unicode-3.0           https://github.com/dtolnay/unicode-ident
+unicode-width                            0.2.2        MIT OR Apache-2.0                             https://github.com/unicode-rs/unicode-width
+url                                      2.5.8        MIT OR Apache-2.0                             https://github.com/servo/rust-url
+utf-8                                    0.7.6        MIT OR Apache-2.0                             https://github.com/SimonSapin/rust-utf8
+utf8_iter                                1.0.4        Apache-2.0 OR MIT                             https://github.com/hsivonen/utf8_iter
+utf8parse                                0.2.2        Apache-2.0 OR MIT                             https://github.com/alacritty/vte
+uuid                                     1.28.0       Apache-2.0 OR MIT                             https://github.com/uuid-rs/uuid
+vergen                                   9.0.6        MIT OR Apache-2.0                             https://github.com/rustyhorde/vergen
+vergen-gitcl                             1.0.8        MIT OR Apache-2.0                             https://github.com/rustyhorde/vergen
+vergen-lib                               0.1.6        MIT OR Apache-2.0                             https://github.com/rustyhorde/vergen
+version_check                            0.9.5        MIT/Apache-2.0                                https://github.com/SergioBenitez/version_check
+want                                     0.3.2        MIT                                           https://github.com/seanmonstar/want
+web-time                                 1.1.0        MIT OR Apache-2.0                             https://github.com/daxpedda/web-time
+which                                    4.4.2        MIT                                           https://github.com/harryfei/which-rs.git
+winapi                                   0.3.9        MIT/Apache-2.0                                https://github.com/retep998/winapi-rs
+winapi-x86_64-pc-windows-gnu             0.4.0        MIT/Apache-2.0                                https://github.com/retep998/winapi-rs
+windows                                  0.61.3       MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-collections                      0.2.0        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-core                             0.61.2       MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-future                           0.2.1        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-implement                        0.60.2       MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-interface                        0.59.3       MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-link                             0.1.3        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-link                             0.2.1        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-numerics                         0.2.0        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-registry                         0.6.1        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-result                           0.3.4        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-result                           0.4.1        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-strings                          0.4.2        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-strings                          0.5.1        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-sys                              0.59.0       MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-sys                              0.61.2       MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-targets                          0.52.6       MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows-threading                        0.1.0        MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+windows_x86_64_gnu                       0.52.6       MIT OR Apache-2.0                             https://github.com/microsoft/windows-rs
+writeable                                0.6.4        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+yoke                                     0.8.3        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+yoke-derive                              0.8.4        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+zerocopy                                 0.8.63       BSD-2-Clause OR Apache-2.0 OR MIT             https://github.com/google/zerocopy
+zerocopy-derive                          0.8.63       BSD-2-Clause OR Apache-2.0 OR MIT             https://github.com/google/zerocopy
+zerofrom                                 0.1.8        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+zerofrom-derive                          0.1.8        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+zeroize                                  1.9.1        Apache-2.0 OR MIT                             https://github.com/RustCrypto/utils
+zerotrie                                 0.2.5        Unicode-3.0                                   https://github.com/unicode-org/icu4x
+zerovec                                  0.11.8       Unicode-3.0                                   https://github.com/unicode-org/icu4x
+zerovec-derive                           0.11.6       Unicode-3.0                                   https://github.com/unicode-org/icu4x
+zlib-rs                                  0.6.8        Zlib                                          https://github.com/trifectatechfoundation/zlib-rs
+zmij                                     1.0.23       MIT                                           https://github.com/dtolnay/zmij
+
+======================================================================
+librespot LICENSE
+======================================================================
+The MIT License (MIT)
+
+Copyright (c) 2015 Paul Lietar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
