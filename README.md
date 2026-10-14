@@ -30,7 +30,7 @@ Set `station =` in `spotify-radio\config.ini` to a station's number or name, for
 
 ## Other settings
 
-Edit `spotify-radio\config.ini` while the game is closed. You can change the device name, icon, bitrate, starting volume, and more. `boost_db` (0 to 12, default 5) raises the station's overall volume, and `replace_logo = false` keeps the station's original logo.
+Edit `spotify-radio\config.ini` while the game is closed. You can change the device name, icon, bitrate, starting volume, and more. `boost_db` (0 to 12, default 5) raises the station's overall volume, and `replace_logo = false` keeps the station's original logo. To use your own logo, put `logo.png` or `logo.jpg` in `spotify-radio` (about 2:1, ideally 392x192 or 784x384). By default the music pauses when you leave the station or hit a menu and resumes where it left off; set `pause_when_silent = false` for live-radio behavior.
 
 ## Troubleshooting
 
