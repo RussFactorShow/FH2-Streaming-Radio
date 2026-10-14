@@ -19,7 +19,7 @@ After the first time, your login is saved and the game shows up in Spotify autom
 
 ## Settings
 
-Edit `spotify-radio\config.ini` while the game is closed. You can change the device name, icon, bitrate, starting volume, which station gets taken over, and more.
+Edit `spotify-radio\config.ini` while the game is closed. You can change the device name, icon, bitrate, starting volume, which station gets taken over, and more. `boost_db` (0 to 12, default 6) raises the station's overall volume.
 
 ## Troubleshooting
 
