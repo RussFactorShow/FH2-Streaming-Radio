@@ -6,8 +6,8 @@ A mod for **Forza Horizon 2 (Azimuth builds)** that takes over an in-game radio 
 
 Spotify streaming requires Spotify Premium, since Spotify only allows Connect speakers on Premium. Local music works without Premium and offline. Not affiliated with Spotify or Microsoft.
 
-> [!IMPORTANT]
-> Go into the game's **Audio settings** and turn **OFF Radio DJ**, or the DJ will talk over your music.
+> [!NOTE]
+> **Experimental (v0.1.2+):** the mod now mutes the DJ on your takeover station only (`mute_dj = true`), so you can leave the game's **DJ Voice** setting ON and keep DJs on the other stations. If the DJ still talks over your music, turn **OFF Radio DJ** in the game's **Audio settings**.
 
 ## Install
 
@@ -15,14 +15,14 @@ Spotify streaming requires Spotify Premium, since Spotify only allows Connect sp
 2. Copy `D3DCompiler_47.dll` and the `spotify-radio` folder into the folder that already has `Azimuth.exe`.
 3. Launch the game. When Windows asks, allow `Azimuth.exe` to use **Private networks**. In fullscreen, that prompt can hide behind the game, so Alt+Tab to it.
 4. On a phone or other device on the same network, open Spotify, tap the devices icon, and pick **Forza Horizon 2**. Then play something.
-5. **IMPORTANT:** Go into the in-game **Audio settings** and turn **OFF Radio DJ**.
+5. Leave the game's DJ Voice setting on. The mod mutes the DJ on your station only (experimental). If the DJ still talks over your music, turn **OFF Radio DJ** in the in-game **Audio settings**.
 6. In-game, switch the radio to **XS Radio**, or whichever station you picked in the config.
 
 After the first time, your login is saved and the game shows up in Spotify automatically whenever it's running.
 
 ## Local music
 
-Drop your songs into `spotify-radio\MUSIC`. MP3, FLAC, OGG, WAV, and M4A files all work, and sub-folders are fine. Whenever Spotify isn't connected, they play on shuffle on the takeover station. Spotify can connect at any time, and if it disconnects, your local music picks back up. Set `local_music = false` in `config.ini` to turn this off.
+Drop your songs into `spotify-radio\MUSIC`. MP3, FLAC, OGG, WAV, and M4A files all work, and sub-folders are fine. Whenever Spotify isn't connected, they play on shuffle on the takeover station. Spotify can connect at any time, and if it disconnects, your local music picks back up. No song repeats until the whole shuffle has played, even across game sessions. If your local songs are louder or quieter than other stations, adjust `local_boost_db` in `config.ini`. Set `local_music = false` to turn local music off.
 
 ## Picking a different station
 
