@@ -2,7 +2,7 @@
 
 ![FH2 Streaming Radio](assets/banner.png)
 
-A mod for **Forza Horizon 2 (Azimuth builds)** that takes over an in-game radio station, which is **XS Radio** by default, and plays your own music on it. Pick "Forza Horizon 2" from the Spotify devices list on your phone and whatever you play comes out of that station. When Spotify isn't connected, the station shuffles your own songs from the `MUSIC` folder.
+A mod for **Forza Horizon 2 and Forza Horizon 2 Presents Fast & Furious (Azimuth builds)** that takes over an in-game radio station, which is **XS Radio** by default, and plays your own music on it. Pick "Forza Horizon 2" from the Spotify devices list on your phone and whatever you play comes out of that station. When Spotify isn't connected, the station shuffles your own songs from the `MUSIC` folder.
 
 Spotify streaming requires Spotify Premium, since Spotify only allows Connect speakers on Premium. Local music works without Premium and offline. Not affiliated with Spotify or Microsoft.
 
@@ -31,6 +31,10 @@ Set `station =` in `spotify-radio\config.ini` to a station's number or name, for
 ## Other settings
 
 Edit `spotify-radio\config.ini` while the game is closed. You can change the device name, icon, bitrate, starting volume, and more. `boost_db` (0 to 12, default 5) raises the station's overall volume, and `replace_logo = false` keeps the station's original logo. To use your own logo, put `logo.png` or `logo.jpg` in `spotify-radio` (about 2:1, ideally 392x192 or 784x384). By default the music pauses when you leave the station or hit a menu and resumes where it left off; set `pause_when_silent = false` for live-radio behavior.
+
+## Fast & Furious (tester build v0.2.0)
+
+The v0.2.0 pre-release works in both games from one install. In Fast & Furious it takes over Spire Radio by default; set `fnf_station = 2` in `config.ini` for Spire Score. If the station stays silent, connect Spotify once you're in free roam.
 
 ## Troubleshooting
 
