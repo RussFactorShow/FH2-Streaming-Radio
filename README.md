@@ -32,6 +32,10 @@ Set `station =` in `spotify-radio\config.ini` to a station's number or name, for
 
 Edit `spotify-radio\config.ini` while the game is closed. You can change the device name, icon, bitrate, starting volume, and more. `boost_db` (0 to 12, default 5) raises the station's overall volume, and `replace_logo = false` keeps the station's original logo. To use your own logo, put `logo.png` or `logo.jpg` in `spotify-radio` (about 2:1, ideally 392x192 or 784x384). By default the music pauses when you leave the station or hit a menu and resumes where it left off; set `pause_when_silent = false` for live-radio behavior.
 
+## Skip songs from your controller
+
+Hold **LB + X** to skip to the next song (Spotify or local music). It works while the game is in front and playing your station. Change the buttons with `skip_combo` in `config.ini` (two or more of `A B X Y LB RB LT RT Back Start LS RS Up Down Left Right`, joined with `+`), or set `skip_combo = off` to disable it.
+
 ## Troubleshooting
 
 - Check `spotify-radio\spotify-radio.log`.
