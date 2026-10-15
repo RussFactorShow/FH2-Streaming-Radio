@@ -7,7 +7,7 @@ A mod for **Forza Horizon 2 (Azimuth builds)** that takes over an in-game radio 
 Spotify streaming requires Spotify Premium, since Spotify only allows Connect speakers on Premium. Local music works without Premium and offline. Not affiliated with Spotify or Microsoft.
 
 > [!NOTE]
-> **Experimental (v0.1.2+):** the mod now mutes the DJ on your takeover station only (`mute_dj = true`), so you can leave the game's **DJ Voice** setting ON and keep DJs on the other stations. If the DJ still talks over your music, turn **OFF Radio DJ** in the game's **Audio settings**.
+> **Experimental:** the mod can mute the DJ on your takeover station only (`mute_dj = true`), which lets you leave the game's **DJ Voice** setting ON. For the best experience, we still recommend turning **OFF Radio DJ** in the game's **Audio settings**.
 
 ## Install
 
@@ -15,7 +15,7 @@ Spotify streaming requires Spotify Premium, since Spotify only allows Connect sp
 2. Copy `D3DCompiler_47.dll` and the `spotify-radio` folder into your Azimuth folder, so that both the `D3DCompiler_47.dll` and the `spotify-radio` folder are next to `Azimuth.exe`.
 3. Launch the game. When Windows asks, allow `Azimuth.exe` to use **Private networks**. In fullscreen, that prompt can hide behind the game, so Alt+Tab to it.
 4. On any device with Spotify that's on the same network as the game PC, like your phone, a tablet, or the Spotify app on your computer, open the devices list and pick **Forza Horizon 2**. Then play something.
-5. Leave the game's DJ Voice setting on. The mod mutes the DJ on your station only (experimental). If the DJ still talks over your music, turn **OFF Radio DJ** in the in-game **Audio settings**.
+5. For the best experience, turn **OFF Radio DJ** in the in-game **Audio settings**. (Experimental: the mod can also mute the DJ on your station only, so you can leave DJ Voice on and keep DJs on the other stations, but turning it off is still recommended.)
 6. In-game, switch the radio to **XS Radio**, or whichever station you picked in the config.
 
 After the first time, your login is saved and the game shows up in Spotify automatically whenever it's running.
