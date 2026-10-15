@@ -12,7 +12,7 @@ Spotify streaming requires Spotify Premium, since Spotify only allows Connect sp
 ## Install
 
 1. Download the latest zip from [Releases](../../releases).
-2. Copy `D3DCompiler_47.dll` and the `spotify-radio` folder into the folder that already has `Azimuth.exe`.
+2. Copy `D3DCompiler_47.dll` and the `spotify-radio` folder into your Azimuth folder, so that both the `D3DCompiler_47.dll` and the `spotify-radio` folder are next to `Azimuth.exe`.
 3. Launch the game. When Windows asks, allow `Azimuth.exe` to use **Private networks**. In fullscreen, that prompt can hide behind the game, so Alt+Tab to it.
 4. On any device with Spotify that's on the same network as the game PC, like your phone, a tablet, or the Spotify app on your computer, open the devices list and pick **Forza Horizon 2**. Then play something.
 5. Leave the game's DJ Voice setting on. The mod mutes the DJ on your station only (experimental). If the DJ still talks over your music, turn **OFF Radio DJ** in the in-game **Audio settings**.
