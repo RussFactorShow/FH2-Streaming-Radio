@@ -9,6 +9,9 @@ Spotify streaming requires Spotify Premium, since Spotify only allows Connect sp
 > [!CAUTION]
 > **IMPORTANT:** Go into the game's **In-Game Audio Settings** and **TURN OFF the DJ Voice**.
 
+> [!WARNING]
+> **Only one radio mod at a time.** This mod and the YouTube Music version, [FH2 Streaming Radio YTM](https://github.com/RussFactorShow/FH2-Streaming-Radio-YTM), both use the same `D3DCompiler_47.dll`, so you can't run them together. Each mod has its own folder (`spotify-radio` here, `youtube-radio` there). To switch, just swap in the `D3DCompiler_47.dll` from the version you want. Both versions support local music, so you can copy your `MUSIC` folder from one to the other.
+
 ## Install
 
 1. Download the latest zip from [Releases](../../releases).
