@@ -39,6 +39,11 @@ Edit `spotify-radio\config.ini` while the game is closed. You can change the dev
 
 Hold **LB + X** to skip to the next song (Spotify or local music). It works while the game is in front and playing your station. Change the buttons with `skip_combo` in `config.ini` (two or more of `A B X Y LB RB LT RT Back Start LS RS Up Down Left Right`, joined with `+`), or set `skip_combo = off` to disable it.
 
+## Known issues
+
+- **Choppy audio:** the music can occasionally turn choppy mid-song. Switch to another station and back to fix it.
+- **Won't connect:** in rare cases the phone's Spotify app stays stuck on "connecting". Force-quit the Spotify app and connect again.
+
 ## Troubleshooting
 
 - Check `spotify-radio\spotify-radio.log`.
