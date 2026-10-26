@@ -41,7 +41,6 @@ Hold **LB + X** to skip to the next song (Spotify or local music). It works whil
 
 ## Known issues
 
-- **Choppy audio:** the music can occasionally turn choppy mid-song. Switch to another station and back to fix it.
 - **Won't connect:** in rare cases the phone's Spotify app stays stuck on "connecting". Force-quit the Spotify app and connect again.
 
 ## Troubleshooting
