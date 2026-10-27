@@ -10,11 +10,28 @@ Spotify streaming requires Spotify Premium, since Spotify only allows Connect sp
 > **IMPORTANT:** Go into the game's **In-Game Audio Settings** and **TURN OFF the DJ Voice**.
 
 > [!WARNING]
-> **Only one radio mod at a time.** This mod and the YouTube Music version, [FH2 Streaming Radio YTM](https://github.com/RussFactorShow/FH2-Streaming-Radio-YTM), both use the same `D3DCompiler_47.dll`, so you can't run them together. Each mod has its own folder (`spotify-radio` here, `youtube-radio` there). To switch, just swap in the `D3DCompiler_47.dll` from the version you want. Both versions support local music, so you can copy your `MUSIC` folder from one to the other.
+> **Only one radio mod at a time.** This mod and the YouTube Music version, [FH2 Streaming Radio YTM](https://github.com/RussFactorShow/FH2-Streaming-Radio-YTM), can't run together, not even in the ExtraOptions Edition, because both change the same radio code in the game. Want it alongside other mods (anything besides our two radio mods)? Run the latest version of **Extra Options** and use our **ExtraOptions Edition**, which is the recommended way from here on out. The standalone version uses `D3DCompiler_47.dll`, so it can't share with other mods. Each mod has its own folder (`spotify-radio` here, `youtube-radio` there), and both support local music, so you can copy your `MUSIC` folder from one to the other.
 
-## Install
+## Install: ExtraOptions Edition (recommended)
 
-1. Download the latest zip from [Releases](../../releases).
+You'll need the latest version of **Extra Options** with its mod loader installed.
+
+1. **Remove the standalone version first** if you have it. Delete `D3DCompiler_47.dll` and the `spotify-radio` folder from next to `Azimuth.exe`, or two radio mods will run at once.
+2. From [Releases](../../releases/latest), download **only** the `ExtraOptionsEdition` zip.
+3. Drag the whole `Spotify Radio` folder from the zip into your build's `mods` folder (next to `loadorder.txt`). Extra Options loads it at the next game start and adds it to `loadorder.txt` by itself.
+4. Launch the game. When Windows asks, allow `Azimuth.exe` to use **Private networks**. In fullscreen, that prompt can hide behind the game, so Alt+Tab to it.
+5. On any device with Spotify that's on the same network as the game PC, like your phone, a tablet, or the Spotify app on your computer, open the devices list and pick **Forza Horizon 2**. Then play something.
+6. Go into the in-game **Audio Settings** and **TURN OFF the DJ Voice**.
+7. In-game, switch the radio to **XS Radio**, or whichever station you picked in the config.
+
+After the first time, your login is saved and the game shows up in Spotify automatically whenever it's running.
+
+> [!NOTE]
+> In the ExtraOptions Edition, every `spotify-radio\...` path on this page lives inside `mods\Spotify Radio\`. For example, your music goes in `mods\Spotify Radio\spotify-radio\MUSIC`, and the `TITLE SCREEN` folder is still inside `MUSIC`.
+
+## Install: Standalone
+
+1. From [Releases](../../releases/latest), download the standard `FH2_Spotify_Radio` zip (not the ExtraOptionsEdition one).
 2. Copy `D3DCompiler_47.dll` and the `spotify-radio` folder into your Azimuth folder, so that both the `D3DCompiler_47.dll` and the `spotify-radio` folder are next to `Azimuth.exe`.
 3. Launch the game. When Windows asks, allow `Azimuth.exe` to use **Private networks**. In fullscreen, that prompt can hide behind the game, so Alt+Tab to it.
 4. On any device with Spotify that's on the same network as the game PC, like your phone, a tablet, or the Spotify app on your computer, open the devices list and pick **Forza Horizon 2**. Then play something.
@@ -52,7 +69,9 @@ Hold **LB + X** to skip to the next song (Spotify or local music). It works whil
 
 ## Uninstall
 
-Delete `D3DCompiler_47.dll` and the `spotify-radio` folder, or set `enabled = false` in `config.ini`.
+- **ExtraOptions Edition:** delete the `mods\Spotify Radio` folder, or comment out its line in `mods\loadorder.txt` (`# Spotify Radio`).
+- **Standalone:** delete `D3DCompiler_47.dll` and the `spotify-radio` folder.
+- Either way, you can also set `enabled = false` in `config.ini` to switch it off.
 
 ## Credits
 
