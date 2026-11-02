@@ -10,7 +10,7 @@ Spotify streaming requires Spotify Premium, since Spotify only allows Connect sp
 > **IMPORTANT:** Go into the game's **In-Game Audio Settings** and **TURN OFF the DJ Voice**.
 
 > [!WARNING]
-> **Only one radio mod at a time.** This mod and the YouTube Music version, [FH2 Streaming Radio YTM](https://github.com/RussFactorShow/FH2-Streaming-Radio-YTM), can't run together, because both change the same radio code in the game. Want it alongside other mods (anything besides our radio mods)? Just run the latest version of **Extra Options**. Each mod has its own folder (`spotify-radio` here, `youtube-radio` there), and both support local music, so you can copy your `MUSIC` folder from one to the other.
+> **Only one radio mod at a time.** This mod, the YouTube Music version ([FH2 Streaming Radio YTM](https://github.com/RussFactorShow/FH2-Streaming-Radio-YTM)) and [HorizonRadioNetwork](https://github.com/RussFactorShow/FH2-HorizonRadioNetwork) can't run together, because they all change the same radio code in the game. Install only one of the three. Want it alongside other mods (anything besides our radio mods)? Just run the latest version of **Extra Options**. Each mod has its own folder, and they all support local music, so you can copy your `MUSIC` folder from one to another.
 
 ## Install
 
